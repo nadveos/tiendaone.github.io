@@ -1,0 +1,69 @@
+.main-header-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    height: 6rem;
+    background-color: #FFFFFF;
+}
+
+
+.exit-btn{
+    background-color: rgba(48, 131, 239, 0.8);
+    margin: 1rem auto;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    --fa-animation-duration: 5s; 
+    --fa-fade-opacity: 0.6;
+}
+.exit-btn i{
+    margin-right: 1rem;
+}
+.exit-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.add-product, #agregar{
+    background-color: rgba(48, 131, 239, 0.8);
+    margin: 1rem auto;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    --fa-animation-duration: 5s; 
+    --fa-fade-opacity: 0.6;
+    color: #FFFFFF;
+}
+.add-product a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#agregar a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.fadeOut{
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.formulario-productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    margin: 0 auto;
+}
+#img-url,
+#name-prod,
+#price-prod{
+    display: block;
+    width: 150%;
+    height: 2rem;
+    border-radius: 5px;
+}
+.invisible{
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+    transition: all 1s ease-out;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/652feabbb9.js" crossorigin="anonymous"></script>
+    
+    <script src="../admin/js/edit-product.js"defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Admin Products</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header class="main-header-products">
+            <a href="index.html"><div class="logoPrincipal"></div></a>
+        </header>
+        <main>
+            <div class="editar">
+
+                <form action="" data-form id="form-add">
+                    <label for="ruta">Url de la imagen</label>
+                    <input type="text" name="ruta" id="img-url" title="Recomendamos https://placeimg.com/176/174/any  Incluya http" placeholder="Nueva Imagen" data-url autocomplete="off">
+                    <label for="name-prod">Nombre del producto</label> 
+                    <input type="text" name="name-prod" id="name-prod" title="Modifique el nombre del producto max. 30 caracteres" data-name autocomplete="off" maxlength="30">
+                    <label for="price-prod">Precio</label>    
+                    <input type="number" step="any" min="0" name="price-prod" id="price-prod" title="Modifique el precio"  data-price autocomplete="off">
+                    <button id="agregar" type="submit">Editar</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <section class="copy">
+                <span>&copy; Tienda by Guta 2022</span>
+            </section>
+            
+        </footer>
+    </div>
+    
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    /* border: 2px solid #000; */
+    /* border-radius: 5px; */
+    /* height: 100vh; */
+    padding: 5rem;
+    width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#login,#pass{
+    width: 100%;
+    height: 2rem;
+    /* padding: 1rem; */
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+#btn-env-log{
+    background-color: rgba(48, 131, 239, 0.8);
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+.icon{
+    margin: 0 auto;
+    --fa-animation-duration: 2s; 
+    --fa-fade-opacity: 0.6;
+}
+
+.invisible{
+	display: none;
+}

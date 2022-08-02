@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main-style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/652feabbb9.js" crossorigin="anonymous"></script>
+    
+    <title>Home</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <div class="logoPrincipal"></div>
+            <div class="search">
+                <input type="search" name="" id="" class="search-btn" placeholder="Buscar...">
+                
+            </div>
+            <button class="login-btn"><a href="admin/login.html"><i class="fa-solid fa-lock fa-fade"></i>Login</a></button>
+        </header>
+        <main>
+         <section class="baner">
+
+         </section>
+         <section id="products"></section>
+        </main>
+        <footer>
+            <section class="about">
+                <div class="logo"><img src="./media/Logo.png" alt=""></div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="">Quienes Somos</a></li>
+                        <li><a href="">Politica de privacidad</a></li>
+                        <li><a href="">Programa de fidelidad</a></li>
+                        <li><a href="">Nuestras Tiendas</a></li>
+                        <li><a href="">Quiero ser franquiciado</a></li>
+                        <li><a href="">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+                
+                <form action="" class="contact-form">
+                    <h3>Hable con nosotros</h3>
+                    <input type="text" name="name" id="name" placeholder="Su nombre">
+                    <textarea name="msg" id="msg" maxlength="255" class="mensaje-contacto" placeholder="Su mensaje aquí"></textarea>
+                    <a href="" class="env-email-to"></a>
+                    <input type="button" value="Contactar" id="contact">
+                </form>
+                
+            </section>
+            
+            <section class="copy">
+                <span>&copy; Tienda by Guta 2022</span>
+            </section>
+            
+        </footer>
+    </div>
+    <script src="./js/products.js" defer></script>
+    <script src="./js/busqueda_productos.js" defer></script>
+    <script src="./js/contact.js"defer></script>
+</body>
+</html>
